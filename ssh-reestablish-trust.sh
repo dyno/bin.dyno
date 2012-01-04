@@ -18,7 +18,7 @@ for r in $@; do
     hostname=$(awk -v FS=@ '{print $NF}' <<< "$r")
     echo $username@$hostname    
    
-    ./remove_known_hosts.py $hostname
+    ./ssh-remove-knownhosts.py $hostname
 
     if [ ! -f ~/.ssh/id_rsa.pub ]; then 
 	echo "public key not found!" 
