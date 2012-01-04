@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# this script does something equivalent to 'ssh-keygen -R <hostname>'
+
 import re
 import hmac
 import hashlib
