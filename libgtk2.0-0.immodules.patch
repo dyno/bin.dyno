@@ -1,0 +1,4 @@
+33c33
+< "xim" "X Input Method" "gtk20" "/usr/share/locale" "ko:ja:th:zh" 
+---
+> "xim" "X Input Method" "gtk20" "/usr/share/locale" "ko:ja:th:zh:en" 
